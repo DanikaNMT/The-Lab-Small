@@ -1,9 +1,9 @@
 
 import {useProducts} from "@/hooks/useProducts.ts";
-import {ProductCard} from "@/components/Handmatig/productCard.tsx";
+import {ProductCardHandmatig} from "@/components/Handmatig/productCardHandmatig.tsx";
 import {Product} from "@/models/Product.ts";
 
-export function ProductOverview() {
+export function ProductOverviewHandmatig() {
     const {isLoading, isError, products} = useProducts()
 
     if (isLoading) {
@@ -25,7 +25,7 @@ export function ProductOverview() {
     return (
         <div className="flex flex-wrap gap-4 p-4 justify-center items-start w-full">
             {products.map((product: Product) => (
-                    <ProductCard product={product} key={product.id} />
+                    <ProductCardHandmatig product={product} key={product.id} />
             ))}
         </div>
     );

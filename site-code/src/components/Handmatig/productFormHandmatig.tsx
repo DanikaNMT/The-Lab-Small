@@ -1,9 +1,9 @@
 import {useState} from "react";
 import {ProductData} from "@/models/Product.ts";
-import {ProductPreviewCard} from "@/components/Handmatig/productPreviewCard.tsx";
+import {ProductPreviewCardHandmatig} from "@/components/Handmatig/productPreviewCardHandmatig.tsx";
 import {useProducts} from "@/hooks/useProducts";
 
-export default function ProductForm() {
+export default function ProductFormHandmatig() {
     const {addProduct} = useProducts();
 
     const [form, setForm] = useState({
@@ -51,7 +51,7 @@ export default function ProductForm() {
                 <button className="bg-orange-300 text-white px-4 py-2 rounded" type="submit">Add Product</button>
             </form>
             <div className="w-1/2 flex justify-center items-start">
-                <ProductPreviewCard product={previewProduct}/>
+                <ProductPreviewCardHandmatig product={previewProduct}/>
             </div>
         </div>
     );
