@@ -1,16 +1,34 @@
 import { useNavigate } from "react-router-dom";
 import { Home, Plus } from "lucide-react";
 import storeLogo from "@/assets/images/store_logo_handmatig.png";
-import ProductForm from "@/components/Handmatig/productForm.tsx";
+import ProductFormHandmatig from "@/components/Handmatig/productFormHandmatig.tsx";
 
-export function CreateProduct() {
+export function CreateProductHandmatig() {
     const navigate = useNavigate();
 
     return (
         <div className="grid grid-rows-[auto_1fr_8fr] grid-cols-[1.5fr_8fr] w-screen h-screen gap-2 p-2 border border-gray-200 bg-gray-100">
             {/* Full-width top row */}
-            <div className="bg-pink-200 flex justify-center items-center col-span-2 p-2 rounded-xl">
-                <h1 className="text-2xl font-bold text-gray-800">place holder text</h1>
+            <div className="flex bg-gray-300  col-span-2 p-2 rounded-xl">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 1
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 2
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 3
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 4
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 5
+                </button>
             </div>
 
             {/* Sidebar */}
@@ -19,7 +37,7 @@ export function CreateProduct() {
                     src={storeLogo}
                     alt="Logo of the store"
                     className="p-1 h-40 cursor-pointer"
-                    onClick={() => navigate('/')}
+                    onClick={() => navigate('/versie1')}
                 />
             </div>
 
@@ -39,7 +57,7 @@ export function CreateProduct() {
 
                 <button
                     className="bg-blue-300 hover:bg-blue-200 text-gray-800 font-bold py-2 px-4 flex items-center justify-center gap-3 w-full border-blue-400 hover:border-blue-300 rounded-xl"
-                    onClick={() => navigate('/create')}>
+                    onClick={() => navigate('/versie1/create')}>
                     <Plus className="w-5 h-5" />
                     <span>Add product</span>
                 </button>
@@ -47,7 +65,7 @@ export function CreateProduct() {
 
             {/* Main content */}
             <div className="bg-yellow-100 flex justify-center pt-10 w-full rounded-xl">
-                <ProductForm />
+                <ProductFormHandmatig />
             </div>
         </div>
     );
