@@ -1,16 +1,34 @@
 import { useNavigate } from "react-router-dom";
 import { Home, Plus } from "lucide-react";
 import storeLogo from "@/assets/images/store_logo_handmatig.png";
-import {ProductOverview} from "@/components/Handmatig/productOverview.tsx";
+import {ProductOverviewHandmatig} from "@/components/Handmatig/productOverviewHandmatig.tsx";
 
-export function MainScreen() {
+export function ProductScreenChatGPT() {
     const navigate = useNavigate();
 
     return (
         <div className="grid grid-rows-[auto_1fr_8fr] grid-cols-[1.5fr_8fr] w-screen h-screen gap-2 p-2 border border-gray-200 bg-gray-100">
             {/* Full-width top row */}
-            <div className="bg-pink-200 flex justify-center items-center col-span-2 p-2 rounded-xl">
-                <h1 className="text-2xl font-bold text-gray-800">place holder text</h1>
+            <div className="flex bg-gray-300  col-span-2 p-2 rounded-xl">
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 1
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 2
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 3
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 4
+                </button>
+
+                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
+                    versie 5
+                </button>
             </div>
 
             {/* Sidebar */}
@@ -48,7 +66,7 @@ export function MainScreen() {
             {/* Main content */}
             <div className="bg-yellow-100 flex justify-center w-full rounded-xl overflow-hidden">
                 <div className="w-full h-full overflow-y-auto p-4">
-                    <ProductOverview />
+                    <ProductOverviewHandmatig />
                 </div>
             </div>
         </div>
