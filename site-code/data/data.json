@@ -20,6 +20,13 @@
       "name": "midnight bunny",
       "price": 11,
       "amount": 83
+    },
+    {
+      "imgUrl": "https://th.bing.com/th/id/OIP.qiyLS9ARLo2Jk6a1kOxjWwHaHa?rs=1&pid=ImgDetMain",
+      "name": "Rawr",
+      "price": 15,
+      "amount": 4,
+      "id": 4
     }
   ]
 }

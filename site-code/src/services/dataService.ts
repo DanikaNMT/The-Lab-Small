@@ -10,10 +10,6 @@ export const addProduct = (productData: ProductData) => {
     return axios.post('/products', productData)
 }
 
-/*export async function deleteMedication(medicationId: number) {
-    const { data } = await axios.delete(`/medication/${medicationId}`);
-    return data;
-}*/
 
 
 

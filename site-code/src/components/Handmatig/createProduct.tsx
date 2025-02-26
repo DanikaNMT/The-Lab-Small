@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { Home, Plus } from "lucide-react";
 import storeLogo from "@/assets/images/store_logo_handmatig.png";
+import ProductForm from "@/components/Handmatig/productForm.tsx";
 
 export function CreateProduct() {
     const navigate = useNavigate();
@@ -45,7 +46,9 @@ export function CreateProduct() {
             </div>
 
             {/* Main content */}
-            <div className="bg-yellow-100 flex justify-center pt-10 w-full rounded-xl"></div>
+            <div className="bg-yellow-100 flex justify-center pt-10 w-full rounded-xl">
+                <ProductForm />
+            </div>
         </div>
     );
 }
