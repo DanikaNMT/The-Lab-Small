@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imgUrl": "https://wondertoys.nl/1516-large_default/disney-moana-pua-knuffel-groot.jpg",
+      "name": "Pua knuffel",
+      "price": 30,
+      "amount": 29
+    },
+    {
+      "id": 2,
+      "imgUrl": "https://www.highworthemporium.co.uk/img/product/jellycat-soft-toys-amuseable-acorn-3012780-1600.jpg",
+      "name": "Boompje",
+      "price": 45,
+      "amount": 3
+    },
+    {
+      "id": 3,
+      "imgUrl": "https://th.bing.com/th/id/OIP.RkXjsCvPgXQsX_oN0pjekgAAAA?rs=1&pid=ImgDetMain",
+      "name": "midnight bunny",
+      "price": 11,
+      "amount": 83
+    }
+  ]
+}
