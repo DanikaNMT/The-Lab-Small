@@ -6,7 +6,7 @@ export function MainScreen() {
     return (
             <div className="flex bg-gray-300  justify-center items-center  col-span-2 p-2 rounded-xl">
                 <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl"
-                onClick={() => navigate('/create')}>
+                onClick={() => navigate('/versie1')}>
                     versie 1
                 </button>
 
