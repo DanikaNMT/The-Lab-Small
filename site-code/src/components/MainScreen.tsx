@@ -1,6 +1,4 @@
-import { JobTable } from "@/components/jobs/jobTable.tsx";
 import { useNavigate } from "react-router-dom";
-import { Plus } from "lucide-react";
 
 export function MainScreen() {
     const navigate = useNavigate();
