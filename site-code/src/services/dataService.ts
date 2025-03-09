@@ -10,6 +10,10 @@ export const addProduct = (productData: ProductData) => {
     return axios.post('/products', productData)
 }
 
+export const deleteProduct = (productId: string) => {
+    return axios.delete(`/products/${productId}`)
+}
+
 
 
 
