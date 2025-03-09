@@ -49,7 +49,20 @@ export default {
   				'3': 'hsl(var(--chart-3))',
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
-  			}
+  			},
+			teal: {
+				'600': '#319795',
+			},
+			orange: {
+				'500': '#ED8936',
+				'600': '#DD6B20',
+			},
+			gradientColorStops: {
+				'pink-400': '#f472b6',
+				'purple-500': '#a855f7',
+				'pink-500': '#ec4899',
+				'purple-600': '#9333ea'
+			}
   		}
   	}
   },
