@@ -1,6 +1,6 @@
 
 import {useProducts} from "@/hooks/useProducts.ts";
-import {ProductCardHandmatig} from "@/components/Handmatig/productCardHandmatig.tsx";
+import {ProductCardHandmatig} from "@/components/1. Handmatig/productCardHandmatig.tsx";
 import {Product} from "@/models/Product.ts";
 
 export function ProductOverviewHandmatig() {

@@ -4,27 +4,16 @@ export function MainScreen() {
     const navigate = useNavigate();
 
     return (
-            <div className="flex bg-gray-300  justify-center items-center  col-span-2 p-2 rounded-xl">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl"
-                onClick={() => navigate('/versie1')}>
-                    versie 1
+        <div className="flex justify-center items-center gap-2 p-2  w-screen h-screen rounded-xl bg-white shadow-md">
+            {[1, 2, 3, 4, 5].map((version) => (
+                <button
+                    key={version}
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-xl transition-all"
+                    onClick={() => navigate(`/versie${version}`)}
+                >
+                    versie {version}
                 </button>
-
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
-                    versie 2
-                </button>
-
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
-                    versie 3
-                </button>
-
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
-                    versie 4
-                </button>
-
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mx-1 rounded-xl">
-                    versie 5
-                </button>
-            </div>
+            ))}
+        </div>
     );
 }

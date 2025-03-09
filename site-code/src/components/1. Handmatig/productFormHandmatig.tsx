@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {ProductData} from "@/models/Product.ts";
-import {ProductPreviewCardHandmatig} from "@/components/Handmatig/productPreviewCardHandmatig.tsx";
+import {ProductPreviewCardHandmatig} from "@/components/1. Handmatig/productPreviewCardHandmatig.tsx";
 import {useProducts} from "@/hooks/useProducts";
 
 export default function ProductFormHandmatig() {
@@ -44,11 +44,11 @@ export default function ProductFormHandmatig() {
                        placeholder="Image URL" value={form.imgUrl} onChange={handleChange} required/>
                 <input className="border p-2 w-full bg-white text-black" type="text" name="name"
                        placeholder="Product Name" value={form.name} onChange={handleChange} required/>
-                <input className="border p-2 w-full bg-white text-black" type="number" name="price"
+                <input className="border p-2 w-full bg-white text-black" type="number" name="price" step="0.5"
                        placeholder="Price (€)" value={form.price} onChange={handleChange} min="0" required/>
                 <input className="border p-2 w-full bg-white text-black" type="number" name="amount"
                        placeholder="Amount" value={form.amount} onChange={handleChange} min="0" required/>
-                <button className="bg-orange-300 text-white px-4 py-2 rounded" type="submit">Add Product</button>
+                <button className="bg-orange-300 text-white px-4 py-2 rounded" type="submit">Create</button>
             </form>
             <div className="w-1/2 flex justify-center items-start">
                 <ProductPreviewCardHandmatig product={previewProduct}/>
