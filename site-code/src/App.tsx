@@ -28,23 +28,23 @@ function App() {
                     <Routes>
                         <Route path="/" element={<MainScreen/>}/>
 
-                        <Route path="/versie1" element={<ProductScreenChatGPT />}/>
-                        <Route path="/versie1/create" element={<ProductFormChatGPT />}/>
+                        <Route path="/version1" element={<ProductScreenChatGPT />}/>
+                        <Route path="/version1/create" element={<ProductFormChatGPT />}/>
 
-                        <Route path="/versie2" element={<HomePageClaude />}/>
-                        <Route path="/versie2/create" element={<CreatePage />}/>
+                        <Route path="/version2" element={<HomePageClaude />}/>
+                        <Route path="/version2/create" element={<CreatePage />}/>
 
-                        <Route path="/versie3" element={<ProductScreenPerplexity />}/>
-                        <Route path="/versie3/create" element={<CreateProductPerplexity />}/>
+                        <Route path="/version3" element={<ProductScreenPerplexity />}/>
+                        <Route path="/version3/create" element={<CreateProductPerplexity />}/>
 
-                        <Route path="/versie4" element={<ProductScreenHandmatig />}/>
-                        <Route path="/versie4/create" element={<CreateProductHandmatig />}/>
+                        <Route path="/version4" element={<ProductScreenHandmatig />}/>
+                        <Route path="/version4/create" element={<CreateProductHandmatig />}/>
 
-                        <Route path="/versie5" element={<ProductScreenDeepseek />}/>
-                        <Route path="/versie5/create" element={<CreateProductDeepseek />}/>
+                        <Route path="/version5" element={<ProductScreenDeepseek />}/>
+                        <Route path="/version5/create" element={<CreateProductDeepseek />}/>
 
-                        <Route path="/versie6" element={<ProductScreenGemini />}/>
-                        <Route path="/versie6/create" element={<CreateProductScreenGemini />}/>
+                        <Route path="/version6" element={<ProductScreenGemini />}/>
+                        <Route path="/version6/create" element={<CreateProductScreenGemini />}/>
 
 
                     </Routes>

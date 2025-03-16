@@ -9,9 +9,9 @@ export function VersieKnoppen() {
                     <button
                         key={version}
                         className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 text-sm sm:text-base rounded-xl transition-all"
-                        onClick={() => navigate(`/versie${version}`)}
+                        onClick={() => navigate(`/version${version}`)}
                     >
-                        versie {version}
+                        version {version}
                     </button>
                 ))}
             </div>

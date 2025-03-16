@@ -41,7 +41,7 @@ const CreatePage: React.FC = () => {
         };
 
         addProduct(newProduct);
-        navigate('/versie2');
+        navigate('/version2');
     };
 
     // Placeholder function for preview card

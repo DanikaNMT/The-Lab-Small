@@ -8,13 +8,13 @@ const HeaderClaude: React.FC = () => {
                 <h1 className="text-3xl font-bold mb-4 md:mb-0">Cuddle Corner</h1>
                 <nav className="flex gap-4">
                     <Link
-                        to="/versie2"
+                        to="/version2"
                         className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded transition duration-300"
                     >
                         Home
                     </Link>
                     <Link
-                        to="/versie2/create"
+                        to="/version2/create"
                         className="bg-pink-500 hover:bg-pink-600 text-white font-semibold py-2 px-4 rounded transition duration-300"
                     >
                         Create

@@ -39,7 +39,7 @@ export function ProductScreenDeepseek() {
                             className="bg-pink-400 hover:bg-pink-600 text-white font-bold py-3 px-6 rounded-2xl
                                       transition-all duration-300 text-lg flex items-center gap-2
                                       shadow-lg hover:shadow-xl hover:scale-105 border-2 border-white"
-                            onClick={() => navigate("/versie5")}
+                            onClick={() => navigate("/version5")}
                         >
                             <FaHome className="text-xl" />
                             Home 🏡
@@ -48,7 +48,7 @@ export function ProductScreenDeepseek() {
                             className="bg-purple-400 hover:bg-purple-600 text-white font-bold py-3 px-6 rounded-2xl
                                       transition-all duration-300 text-lg flex items-center gap-2
                                       shadow-lg hover:shadow-xl hover:scale-105 border-2 border-white"
-                            onClick={() => navigate("/versie5/create/")}
+                            onClick={() => navigate("/version5/create/")}
                         >
                             <FaPlus className="text-xl" />
                             Create ✨

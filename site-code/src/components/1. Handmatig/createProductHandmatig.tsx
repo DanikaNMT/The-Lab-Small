@@ -32,14 +32,14 @@ export function CreateProductHandmatig() {
                     <div className="bg-green-200 flex flex-col p-3 md:p-5 rounded-xl space-y-2 md:space-y-4 flex-grow">
                         <button
                             className="bg-blue-300 hover:bg-blue-200 text-gray-800 font-bold py-2 px-4 flex items-center justify-center gap-3 w-full border-blue-400 hover:border-blue-300 rounded-xl"
-                            onClick={() => navigate('/versie4')}>
+                            onClick={() => navigate('/version4')}>
                             <Home className="w-4 h-4 md:w-5 md:h-5 text-gray-800" />
                             Home
                         </button>
 
                         <button
                             className="bg-blue-300 hover:bg-blue-200 text-gray-800 font-bold py-2 px-4 flex items-center justify-center gap-3 w-full border-blue-400 hover:border-blue-300 rounded-xl"
-                            onClick={() => navigate('/versie4/create')}>
+                            onClick={() => navigate('/version4/create')}>
                             <Plus className="w-4 h-4 md:w-5 md:h-5 text-gray-800" />
                             Create
                         </button>

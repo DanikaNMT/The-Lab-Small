@@ -26,13 +26,13 @@ export function CreateProductPerplexity() {
             <div className="flex justify-center gap-6 mt-4">
                 <button
                     className="bg-green-400 hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-transform transform hover:scale-110"
-                    onClick={() => navigate("/versie3")}
+                    onClick={() => navigate("/version3")}
                 >
                     🏠 Home
                 </button>
                 <button
                     className="bg-pink-400 hover:bg-pink-500 text-white font-bold py-3 px-6 rounded-full shadow-lg transition-transform transform hover:scale-110"
-                    onClick={() => navigate("/versie3/create")}
+                    onClick={() => navigate("/version3/create")}
                 >
                     ✨ Add a Toy!
                 </button>

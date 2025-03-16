@@ -31,12 +31,12 @@ export function ProductScreenGemini() {
                         <div className="flex-1 flex justify-end gap-4">
                             <button
                                 className="flex items-center bg-green-400 hover:bg-green-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-colors duration-300 text-lg"
-                                onClick={() => navigate("/versie6")}>
+                                onClick={() => navigate("/version6")}>
                             <FaHome className="mr-2"/> Home
                             </button>
                             <button
                                 className="flex items-center bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg shadow-md transition-colors duration-300 text-lg"
-                                onClick={() => navigate("/versie6/create")}>
+                                onClick={() => navigate("/version6/create")}>
                                 <FaPlus className="mr-2"/> Create
                             </button>
                         </div>

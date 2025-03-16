@@ -22,10 +22,10 @@ export function createProductChatGPT() {
                 <div className="flex justify-between items-center bg-white p-6 rounded-3xl shadow-xl mb-6 border border-yellow-300">
                     <h1 className="text-4xl font-extrabold text-purple-600">🎉 Toy Wonderland 🎈</h1>
                     <div className="flex gap-4">
-                        <button onClick={() => navigate("/versie1")} className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-6 rounded-xl transition-all shadow-md">
+                        <button onClick={() => navigate("/version1")} className="bg-blue-400 hover:bg-blue-500 text-white font-bold py-2 px-6 rounded-xl transition-all shadow-md">
                             🏠 Home
                         </button>
-                        <button onClick={() => navigate("/versie1/create")} className="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-6 rounded-xl transition-all shadow-md">
+                        <button onClick={() => navigate("/version1/create")} className="bg-green-400 hover:bg-green-500 text-white font-bold py-2 px-6 rounded-xl transition-all shadow-md">
                             ✨ Create
                         </button>
                     </div>
